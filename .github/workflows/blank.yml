@@ -29,5 +29,6 @@ jobs:
       run: |
          # skopeo copy docker://docker.io/pytorch/pytorch:1.13.0-cuda11.6-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:1.13.0-cuda11.6-cudnn8-devel
          # skopeo copy docker://docker.io/heartexlabs/label-studio docker://registry.cn-shanghai.aliyuncs.com/cv-guard/label-studio
-         skopeo copy docker://docker.io/postgres:11.5 docker://registry.cn-shanghai.aliyuncs.com/cv-guard/postgres:11.5
+         # skopeo copy docker://docker.io/postgres:11.5 docker://registry.cn-shanghai.aliyuncs.com/cv-guard/postgres:11.5
+         skopeo copy docker://docker.io/pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:1.9.0-cuda11.1-cudnn8-devel
          
