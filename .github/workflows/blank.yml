@@ -33,6 +33,7 @@ jobs:
          # skopeo copy docker://docker.io/pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:1.9.0-cuda11.1-cudnn8-devel
          # skopeo copy docker://docker.io/heartexlabs/label-studio-ml-backend:mmdetection3-master docker://registry.cn-shanghai.aliyuncs.com/cv-guard/label-studio-ml-backend:mmdetection3-master
          # skopeo copy docker://docker.io/heartexlabs/label-studio-ml-backend:grnddino-master docker://registry.cn-shanghai.aliyuncs.com/cv-guard/label-studio-ml-backend:grnddino-master
-         skopeo copy docker://docker.io/pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:2.1.0-cuda12.1-cudnn8-devel
+         # skopeo copy docker://docker.io/pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:2.1.0-cuda12.1-cudnn8-devel
+         skopeo copy docker://docker.io/pytorch/pytorch:2.1.0-cuda11.8-cudnn8-devel docker://registry.cn-shanghai.aliyuncs.com/cv-guard/pytorch:2.1.0-cuda11.8-cudnn8-devel
          
          
